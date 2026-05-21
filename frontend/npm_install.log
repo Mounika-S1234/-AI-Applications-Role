@@ -1,0 +1,35 @@
+npm warn cleanup Failed to remove some directories [
+npm warn cleanup   [
+npm warn cleanup     '\\\\?\\c:\\Users\\mouni\\OneDrive\\Desktop\\AI Applications Role\\crm-hcp-system\\frontend\\node_modules\\workbox-webpack-plugin\\node_modules\\@apideck',
+npm warn cleanup     [Error: EPERM: operation not permitted, rmdir 'c:\Users\mouni\OneDrive\Desktop\AI Applications Role\crm-hcp-system\frontend\node_modules\workbox-webpack-plugin\node_modules\@apideck'] {
+npm warn cleanup       errno: -4048,
+npm warn cleanup       code: 'EPERM',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'c:\\Users\\mouni\\OneDrive\\Desktop\\AI Applications Role\\crm-hcp-system\\frontend\\node_modules\\workbox-webpack-plugin\\node_modules\\@apideck'
+npm warn cleanup     }
+npm warn cleanup   ],
+npm warn cleanup   [
+npm warn cleanup     'c:\\Users\\mouni\\OneDrive\\Desktop\\AI Applications Role\\crm-hcp-system\\frontend\\node_modules\\workbox-webpack-plugin',
+npm warn cleanup     [Error: EPERM: operation not permitted, rmdir 'c:\Users\mouni\OneDrive\Desktop\AI Applications Role\crm-hcp-system\frontend\node_modules\workbox-webpack-plugin\node_modules'] {
+npm warn cleanup       errno: -4048,
+npm warn cleanup       code: 'EPERM',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'c:\\Users\\mouni\\OneDrive\\Desktop\\AI Applications Role\\crm-hcp-system\\frontend\\node_modules\\workbox-webpack-plugin\\node_modules'
+npm warn cleanup     }
+npm warn cleanup   ],
+npm warn cleanup   [
+npm warn cleanup     '\\\\?\\c:\\Users\\mouni\\OneDrive\\Desktop\\AI Applications Role\\crm-hcp-system\\frontend\\node_modules\\eslint-config-react-app\\node_modules',
+npm warn cleanup     [Error: EPERM: operation not permitted, rmdir 'c:\Users\mouni\OneDrive\Desktop\AI Applications Role\crm-hcp-system\frontend\node_modules\eslint-config-react-app\node_modules'] {
+npm warn cleanup       errno: -4048,
+npm warn cleanup       code: 'EPERM',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'c:\\Users\\mouni\\OneDrive\\Desktop\\AI Applications Role\\crm-hcp-system\\frontend\\node_modules\\eslint-config-react-app\\node_modules'
+npm warn cleanup     }
+npm warn cleanup   ]
+npm warn cleanup ]
+npm error code ENOTDIR
+npm error syscall mkdir
+npm error path c:\Users\mouni\OneDrive\Desktop\AI Applications Role\crm-hcp-system\frontend\node_modules\css-loader
+npm error errno -4052
+npm error ENOTDIR: not a directory, mkdir 'c:\Users\mouni\OneDrive\Desktop\AI Applications Role\crm-hcp-system\frontend\node_modules\css-loader'
+npm error A complete log of this run can be found in: C:\Users\mouni\AppData\Local\npm-cache\_logs\2026-05-19T16_39_22_930Z-debug-0.log
